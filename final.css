@@ -1,0 +1,42 @@
+/*
+ * CS81: JavaScript - Final Project
+ * Created by artmedvedev on 7/20/17.
+ */
+
+body {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+
+td {
+    width: 100px;
+    vertical-align: top;
+}
+
+button {
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+}
+.dice {
+    width: 70px;
+    height: 70px;
+}
+
+#tableResults {
+    width: 400px;
+}
+
+#playerResult div {
+    transition: 3s;
+    opacity: 0;
+}
+
+#computerResult div {
+    transition: 3s;
+    opacity: 0;
+}
